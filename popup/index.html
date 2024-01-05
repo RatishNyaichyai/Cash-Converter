@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="converter">
+      <input type="number" id="amount" placeholder="Enter amount" />
+      <select id="fromCurrency">
+        <option value="USD">USD</option>
+        <option value="NPR">NPR</option>
+        <option value="INR">INR</option>
+        <option value="AUD">AUD</option>
+        <option value="CAD">CAD</option>
+      </select>
+      <br />
+      <span>=</span>
+      <input type="text" id="convertedAmount" readonly />
+      <select id="toCurrency">
+        <option value="USD">USD</option>
+        <option value="NPR">NPR</option>
+        <option value="INR">INR</option>
+        <option value="AUD">AUD</option>
+        <option value="CAD">CAD</option>
+      </select>
+      <br />
+      <button id="convertButton">Convert</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Cash converter",
+  "version": "1.0",
+
+  "description": "Cash conversion between USD, INR, AUD, NPR,and CAD with real-time conversion rate",
+  "permissions": ["activeTab"],
+
+  "action": {
+    "default_icon": "icons/cash-converter-128x128.png",
+    "default_title": "Cash Converter",
+    "default_popup": "popup/index.html"
+  }
+}
